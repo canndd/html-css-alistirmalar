@@ -2,6 +2,7 @@ header{
     width: 100%;
     background-color: #222;
     position: fixed;
+    
 
 
 }
@@ -34,6 +35,31 @@ header{
 .isearch:focus{
     width: 300px;
     border-bottom: 1px solid #cc181e;
+}
+.ayir{
+    height: 60px;
+}
+
+.resim{
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.resim img{
+    height: 400px;
+    width: 100%;
+}
+.text{
+    margin-left: 42%;
+    color: white;
+    font-weight: bold;
+    padding-top: 120px;
+    position:absolute;left:10px;top:10px;
+}
+.text h1{
+        font-size: 50px;
+        text-shadow: 1px 4px 6px black;
 }
 .container{
     width: 80%;
