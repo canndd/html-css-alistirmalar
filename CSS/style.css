@@ -105,19 +105,38 @@ h2.title{
     text-align: center;
     color: white;
     line-height: 1;
+    margin-bottom: 15px;
 
 }
 span{
     display: inline-block;
     position:relative;
 }
-.line::before , .linle::after{
+.line::before, .line::after{
     content: '';
     color: white;
-    border: 1px solid;
+    border: 1px solid red;
     position: absolute;
     right: 100%;
     margin-right: 10px;
     top: 9px;
-    
+    width: 20px;
+}
+.line::before{
+    left: 100%;
+    margin-left: 10px;
+}
+.columun-25{
+    display: inline-block;
+    float: left;
+    width: 24%;
+    margin-right: 1%;
+    text-align: center;
+
+}
+.clear{
+    clear: both;
+}
+.info{
+    margin: 20px;
 }
