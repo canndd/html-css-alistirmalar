@@ -140,3 +140,15 @@ span{
 .info{
     margin: 20px;
 }
+.left{
+    width: 70%;
+    float: left;
+
+}
+.right{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    font-style: italic;
+    font-size:x-large
+}
